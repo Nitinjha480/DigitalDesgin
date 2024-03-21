@@ -1,0 +1,21 @@
+@layer base {
+    @font-face {
+        font-family: 'nb';
+        src: url(/fonts/NBInternationalProBoo.ttf ) format('woff2');
+    }
+    @font-face {
+        font-family: 'rej';
+        src: url(/fonts/Rejouice-Headline.ttf) format('woff2');
+    }
+}
+
+
+#header h1 span{
+    display: inline-block;
+}
+
+/* @media screen and (max-width:600px) {
+    #header h1{
+        font-size: 7rem;
+    }
+} */
